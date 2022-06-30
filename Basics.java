@@ -21,7 +21,7 @@ public class Basics {
 		driver.manage().window().maximize();
 		String ac= driver.getTitle();
 		String ec="Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!";
-		
+		System.out.println("Title="+ac);
 		System.out.println(driver.getCurrentUrl());
 		
 		driver.findElement(By.xpath("//input[@class='_2IX_2- VJZDxU']")).sendKeys("1234567");
