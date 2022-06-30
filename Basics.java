@@ -18,7 +18,7 @@ public class Basics {
 		//WebDriver driver1=new EdgeDriver();
 		driver.get("https://www.flipkart.com/");
 		//driver1.get("https://www.amazon.in/");
-		driver.manage().window().maximize();
+		
 		String ac= driver.getTitle();
 		String ec="Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!";
 		
